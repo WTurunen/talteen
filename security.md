@@ -4,7 +4,7 @@ title: Security
 
 # Security
 
-Undelete is a Forge app. Atlassian supplies all of its compute and all of its
+Talteen is a Forge app. Atlassian supplies all of its compute and all of its
 storage, and the app has no servers, no external services and no network egress
 of its own. Everything the app captures stays inside your own Atlassian Cloud
 environment, encrypted at rest by the platform. The app is verified eligible for
@@ -15,7 +15,7 @@ Atlassian's Runs on Atlassian programme.
 Email **{{ site.security_email }}** with "security" in the subject line. Please include
 what you found, how to reproduce it, and what an attacker could do with it.
 
-Undelete is run by a single developer, so there is no 24/7 rota and no bug
+Talteen is run by a single developer, so there is no 24/7 rota and no bug
 bounty. Reports are acknowledged on Finnish business days, and you will get a
 real answer rather than an auto-reply. Please give a reasonable window to fix
 before publishing.

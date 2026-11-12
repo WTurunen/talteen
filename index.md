@@ -1,13 +1,13 @@
 ---
-title: Undelete for Jira
+title: Talteen
 ---
 
-# Undelete - Restore Deleted Issues for Jira
+# Talteen - Restore Deleted Issues & Attachments for Jira
 
 Jira Cloud has no recycle bin. When a user deletes an issue, Jira deletes that issue
 permanently, and no support request can bring it back.
 
-**Undelete** keeps a copy of each issue on your own Jira site. When a user deletes an
+**Talteen** keeps a copy of each issue on your own Jira site. When a user deletes an
 issue, the app moves that copy to the Trash page, where a site administrator can restore
 it with its fields, its labels, its comments, its links and its files.
 

@@ -2,13 +2,13 @@
 title: Data Processing Addendum
 ---
 
-# Data Processing Addendum — Undelete for Jira
+# Data Processing Addendum — Talteen
 
-**Version 1.0** &middot; **Effective date:** {{ site.dpa_effective_date }}
+**Version 1.0** &middot; **Effective date:** {{ site.dpa_effective_date }} &middot; **Last updated:** {{ site.dpa_updated }}
 
 {{ site.legal_name }} (business ID {{ site.business_id }}, {{ site.business_address }},
-Finland) — "Provider" — publishes the Atlassian Marketplace app **Undelete - Restore
-Deleted Issues for Jira** ("the App").
+Finland) — "Provider" — publishes the Atlassian Marketplace app **Talteen - Restore
+Deleted Issues & Attachments for Jira** ("the App").
 
 This Addendum forms part of the agreement between Provider and Customer for Customer's
 use of the App. It governs Provider's processing of personal data on Customer's behalf

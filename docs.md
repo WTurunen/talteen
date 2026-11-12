@@ -2,11 +2,11 @@
 title: Documentation
 ---
 
-# Undelete — documentation
+# Talteen — documentation
 
 ## 1. How to restore an issue
 
-1. Open Undelete from the Apps menu in Jira.
+1. Open Talteen from the Apps menu in Jira.
 2. Find the issue on the Trash page. To make the list shorter, filter it by project, by
    date, or by user.
 3. Click Restore.
@@ -100,7 +100,7 @@ issue.
 
 ## 6. Where your data stays
 
-Undelete is a Forge app. Atlassian supplies all the compute and all the storage. The app
+Talteen is a Forge app. Atlassian supplies all the compute and all the storage. The app
 keeps each copy in the storage of your own Jira site. The app has no server of its own,
 and it sends no data to an external service.
 

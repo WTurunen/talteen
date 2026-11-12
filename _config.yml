@@ -20,12 +20,13 @@ security_email: "security@muhana.fi"  # vulnerability reports, security page
 effective_date: "2026-08-25"
 # The DPA was published later than the other pages and carries its own date.
 dpa_effective_date: "2026-09-09"
+dpa_updated: "2026-11-12"
 # The privacy policy's effective date does not move when the page is edited; its
 # "last updated" date does. Keep them separate.
-privacy_updated: "2026-10-01"
+privacy_updated: "2026-11-12"
 
-title: Undelete for Jira
-description: Legal and support pages for the Undelete Atlassian Marketplace app.
+title: Talteen
+description: Legal and support pages for the Talteen Atlassian Marketplace app.
 
 # Plain Jekyll with a local layout — no external theme, no plugins, so
 # GitHub Pages builds this without a Gemfile.

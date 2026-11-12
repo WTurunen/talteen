@@ -1,6 +1,6 @@
 # undelete-legal
 
-Public legal and support pages for **Undelete - Restore Deleted Issues for Jira**, an
+Public legal and support pages for **Talteen - Restore Deleted Issues & Attachments for Jira**, an
 Atlassian Marketplace app. Served by GitHub Pages.
 
 This repo is public **only** so the Marketplace listing can point at stable URLs. The app

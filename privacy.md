@@ -2,13 +2,13 @@
 title: Privacy policy
 ---
 
-# Privacy Policy — Undelete for Jira
+# Privacy Policy — Talteen
 
 **Effective date:** {{ site.effective_date }} &middot; **Last updated:** {{ site.privacy_updated }}
 
 {{ site.legal_name }} (business ID {{ site.business_id }}, {{ site.business_address }},
-Finland) — "we", "us" — publishes the Atlassian Marketplace app **Undelete - Restore
-Deleted Issues for Jira** ("the app").
+Finland) — "we", "us" — publishes the Atlassian Marketplace app **Talteen - Restore
+Deleted Issues & Attachments for Jira** ("the app").
 
 This policy explains what the app does with data, and what we do with a support request
 you send us (section 12). It does not
