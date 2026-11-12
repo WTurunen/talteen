@@ -119,18 +119,23 @@ Anything you type there is your own choice, and we use it only to act on your fe
 
 ## 7. Sub-processors
 
-| Party | Purpose | Location |
+The app has one sub-processor. It is the one that Annex III of our
+[Data Processing Addendum](dpa) lists.
+
+| Sub-processor | Purpose | Location |
 |---|---|---|
 | Atlassian | Hosts all app compute and storage (Forge) | Per your Atlassian site's data residency |
-| Tally BV | Hosts the optional feedback form only — reached only if you click the link | Belgium; data stored within the EU |
 
-No other party receives data from the app. Support requests are covered separately in
-section 12.
+Atlassian hosts the app inside your own Atlassian environment. No other party receives
+data from the app.
 
-Neither is a sub-processor for the app's core function. Atlassian hosts the app inside
-your own Atlassian environment. Tally receives nothing unless a person at your
-organisation chooses to open and submit the feedback form. Both are listed for
-completeness.
+**Tally BV is not a sub-processor.** It hosts only the optional feedback form (section 6).
+The form receives nothing unless a person at your organisation opens it and submits it.
+We are the controller of what a person submits there, not a processor for you (DPA
+clause 1.3).
+
+**Support email is covered in section 12.** A support request is not data from the app.
+Section 12 tells how we handle it, and names Proton AG, which hosts the support inbox.
 
 ## 8. Retention and deletion
 
@@ -173,9 +178,10 @@ completeness.
 ## 10. Your rights
 
 For data the app holds in your Jira site, data subject requests should go to the
-**controller** — the organisation whose Jira site holds the data — not to us. For a
-support request you sent us, we are the controller; see section 12. Their administrator can satisfy a right-to-erasure request by
-purging the relevant trash items in the app, by shortening retention, or by uninstalling.
+**controller** — the organisation whose Jira site holds the data — not to us. That
+organisation's administrator can satisfy a right-to-erasure request by purging the
+relevant trash items in the app, by shortening retention, or by uninstalling. For a
+support request you sent us, we are the controller; see section 12.
 
 If you are a customer administrator and need our help with a request, contact us at the
 address in section 13. Where we act as processor we will assist the controller as

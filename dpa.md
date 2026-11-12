@@ -4,7 +4,7 @@ title: Data Processing Addendum
 
 # Data Processing Addendum — Talteen
 
-**Version 1.0** &middot; **Effective date:** {{ site.dpa_effective_date }} &middot; **Last updated:** {{ site.dpa_updated }}
+**Version 1.1** &middot; **Effective date:** {{ site.dpa_effective_date }} &middot; **Last updated:** {{ site.dpa_updated }}
 
 {{ site.legal_name }} (business ID {{ site.business_id }}, {{ site.business_address }},
 Finland) — "Provider" — publishes the Atlassian Marketplace app **Talteen - Restore
