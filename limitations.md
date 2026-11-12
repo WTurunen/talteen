@@ -31,6 +31,10 @@ title: Known limitations
   during the same wait, the app cannot tell this from a link that Jira removed together
   with the deleted issue. A restore then creates the link again. Remove it by hand if you
   do not want it.
+- **Restore two linked issues together to get their link back.** If both issues of a link
+  are in the trash, select both and click Restore selected. The app restores a selection in
+  groups of 25, and a link between two groups is not created again. If you restore the
+  issues one at a time, each restore report lists the link as lost.
 - **Attachment files come back while attachment capture is on.** Capture is already on
   when you install the app, so a fresh install is keeping copies from day one. You can
   switch it off in Settings, or exclude individual projects from it. The app keeps a copy
