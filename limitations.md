@@ -35,7 +35,9 @@ title: Known limitations
   when you install the app, so a fresh install is keeping copies from day one. You can
   switch it off in Settings, or exclude individual projects from it. The app keeps a copy
   of each attachment's file. Two separate limits apply. Each file has a size cap
-  (adjustable 1–50 MB, default 10 MB). Separately, capture has a monthly *write
+  (adjustable 1–25 MB, default 10 MB). 25 MB is a hard maximum: the app cannot keep a
+  larger file, such as a long video, at any setting, because the platform limits how much
+  data an app can store in a few seconds. Separately, capture has a monthly *write
   allowance* (adjustable, default 250 MB) that resets on the 1st of each month, UTC. It
   limits how much is captured each month, not how much is held at once: a captured copy
   is kept for as long as its issue exists, and is deleted along with the issue's trash

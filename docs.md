@@ -76,7 +76,10 @@ that file.
 
 Attachment capture has two limits:
 
-- The maximum size of one file is 10 MB. You can set a value from 1 MB to 50 MB.
+- The size limit for one file is 10 MB. You can set a value from 1 MB to 25 MB.
+- The app cannot keep a file that is larger than 25 MB. This limit is the same for all
+  settings. Jira Cloud limits the quantity of data that an app can keep in a short time,
+  and a larger file can go above that limit.
 - The maximum quantity of data for one month is 250 MB. You can change this value in the
   Settings page. The Settings page gives the maximum value that you can set.
 
