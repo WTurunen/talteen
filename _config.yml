@@ -26,6 +26,9 @@ dpa_updated: "2026-11-12"
 privacy_updated: "2026-11-12"
 
 title: Talteen
+# The site is served at muhana.fi/talteen/. GitHub Pages would derive this from
+# the repo name; it is set here so the path does not depend on the repo name.
+baseurl: "/talteen"
 description: Legal and support pages for the Talteen Atlassian Marketplace app.
 
 # Plain Jekyll with a local layout — no external theme, no plugins, so

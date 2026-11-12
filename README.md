@@ -1,4 +1,4 @@
-# undelete-legal
+# talteen
 
 Public legal and support pages for **Talteen - Restore Deleted Issues & Attachments for Jira**, an
 Atlassian Marketplace app. Served by GitHub Pages.
