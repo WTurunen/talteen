@@ -20,6 +20,17 @@ title: Known limitations
 - **Restored issues start at the workflow's initial status.** Jira doesn't allow setting
   the status when an issue is created, so a "Done" issue comes back at its workflow's
   first status (e.g. "To Do"). Everything else about the issue restores normally.
+- **A link changed just before an issue is deleted can be missed.** The app records an
+  issue's links about 10 seconds after a link changes, so that one recording covers many
+  link changes. During a bulk link change the wait can be a few minutes, because the app
+  records the links of only a few issues at a time. If the issue is deleted during the
+  wait, the restored issue does not get that link, and the restore report does not list it.
+- **A link removed just before one of its issues is deleted can come back on restore.**
+  The app keeps a link to an issue that is in the trash, so that a restore of both issues
+  can link them again. If someone removes a link and then deletes one of the two issues
+  during the same wait, the app cannot tell this from a link that Jira removed together
+  with the deleted issue. A restore then creates the link again. Remove it by hand if you
+  do not want it.
 - **Attachment files come back while attachment capture is on.** Capture is already on
   when you install the app, so a fresh install is keeping copies from day one. You can
   switch it off in Settings, or exclude individual projects from it. The app keeps a copy
