@@ -67,7 +67,6 @@ only.
 ## 5. Deleted files
 
 Jira Cloud has no recovery for a file that a user deletes from an issue that stays.
-Atlassian has a public request for this, with the number JRACLOUD-81027.
 
 Attachment capture is on after you install the app. The app keeps a copy of each file
 that a user deletes. If you set Attachment capture to off, the app keeps no copy of a
