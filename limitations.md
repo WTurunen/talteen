@@ -11,9 +11,13 @@ title: Known limitations
   allow setting them. The original creation date, deletion date, and who deleted the
   issue are recorded in the audit comment; each restored comment is prefixed with its
   original author and timestamp.
-- **Only deletions that happen *after* you install are recoverable.** We can't see into
-  the past — Jira deletes are permanent and leave nothing behind. **Install before you
-  need it.**
+- **Only issues created or changed, and files added, *after* you install are
+  recoverable.** The app keeps its copy of an issue when someone creates or changes it,
+  and its copy of a file when someone adds it. A new comment alone does not count as a
+  change. An issue nobody changed since install, or a file that was already there,
+  cannot be restored, even if it is deleted after you install. We can't see into the
+  past — Jira deletes are permanent and leave nothing behind. **Install before you need
+  it.**
 - **Reporter is restored when permissions allow.** Setting the reporter requires the
   Modify Reporter permission; without it, the restored issue's reporter falls back and
   the original reporter is noted in the audit comment.

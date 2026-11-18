@@ -69,9 +69,11 @@ only.
 Jira Cloud has no recovery for a file that a user deletes from an issue that stays.
 
 Attachment capture is on after you install the app. The app keeps a copy of each file
-that a user deletes. If you set Attachment capture to off, the app keeps no copy of a
-file that a user deletes from an issue that stays. The Deleted files page does not show
-that file.
+when a user adds it. When a user deletes that file, the app can put it back from the
+copy. The app has no copy of a file that was on an issue before you installed the app,
+and it cannot restore that file. If you set Attachment capture to off, the app does not
+copy the files that users add while it is off. The Deleted files page does not show a
+file that has no copy.
 
 Attachment capture has two limits:
 
@@ -136,7 +138,9 @@ that, you cannot restore the issues that were on the Trash page.
 
 ## 9. The limits
 
-- The app restores only the issues that users delete after you install it.
+- The app can restore an issue only if someone created or changed it after you installed
+  the app. A new comment alone is not enough. The app can restore a file only if someone
+  added it after you installed the app.
 - A restored issue has a new key, the first status of its workflow, and no change
   history.
 - The app cannot write the initial author on a comment. Each restored comment starts with
