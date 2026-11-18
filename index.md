@@ -14,9 +14,10 @@ it with its fields, its labels, its comments, its links and its files.
 Your data stays inside Atlassian. The app has no server of its own and sends nothing to
 an external service.
 
-> **Install the app before a user deletes data.** The app can restore only the issues
-> that users delete after you install it. No app can recover an issue that Jira deleted
-> before that time.
+> **Install the app before a user deletes data.** The app can restore an issue only if
+> someone created or changed it after you installed the app. A new comment alone is not
+> enough. The app can restore a file only if someone added it after you installed the
+> app. No app can recover data that Jira deleted before you installed it.
 
 ## Pages
 
