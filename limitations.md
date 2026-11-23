@@ -18,7 +18,7 @@ title: Known limitations
   cannot be restored, even if it is deleted after you install. We can't see into the
   past — Jira deletes are permanent and leave nothing behind. **Install before you need
   it.**
-- **A file deleted within minutes of being added may not be restorable.**
+- **Talteen cannot always restore a file that someone deletes in the first minutes after they add it.**
 - **Reporter is restored when permissions allow.** Setting the reporter requires the
   Modify Reporter permission; without it, the restored issue's reporter falls back and
   the original reporter is noted in the audit comment.
