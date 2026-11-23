@@ -141,6 +141,8 @@ that, you cannot restore the issues that were on the Trash page.
 - The app can restore an issue only if someone created or changed it after you installed
   the app. A new comment alone is not enough. The app can restore a file only if someone
   added it after you installed the app.
+- If someone deletes a file in the first minutes after they add it, the app possibly
+  cannot restore that file.
 - A restored issue has a new key, the first status of its workflow, and no change
   history.
 - The app cannot write the initial author on a comment. Each restored comment starts with
